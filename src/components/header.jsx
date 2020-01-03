@@ -20,10 +20,10 @@ class Header extends React.Component {
 
     render () {
 
-      const strings = ['Michael DeMarco','a dev-in-progress','a first-year at UBC','excited to meet you!'];
+      const strings = ['Michael DeMarco','a dev-in-development','a first-year at UBC','excited to meet you!'];
 
-      return <a href="#main" className='header'>
-        <div className='header'>
+      return <div className='header'>
+        
         <div className='content-desktop'>
           <Typography variant='h1' className='title-text'>Hi, I'm 
           <Typist
@@ -35,11 +35,11 @@ class Header extends React.Component {
           </Typist>
         </Typography>
         </div>
+        
         <div className='content-mobile'>
           <Typography className='mobile-title' variant='h1'>Hi, I'm <br /> >Michael DeMarco<span className='blink'>|</span></Typography>
         </div>
           <Arrow></Arrow></div>
-        </a>
     }
   }
 
