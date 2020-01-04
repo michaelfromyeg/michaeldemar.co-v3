@@ -7,11 +7,10 @@ import actual_resume from '../assets/resume.pdf'
 class About extends React.Component {
     render () {
       const bio = resume.bio
-      return <div className='section'>
-        <Typography variant='h2'>About</Typography>
-        <Typography variant="body1" className='bio-text'>{bio} <a className="resume" href={actual_resume} target="_blank">Resume.</a></Typography>
-        
-        <img className='headshot' src={headshot}/>
+      return <div className="section">
+          <Typography variant='h2'>About</Typography>
+          <Typography variant="body1" className='bio-text'>{bio} <a className="resume" href={actual_resume} target="_blank" rel="noopener noreferrer">Resume.</a></Typography>
+          <img className='headshot' alt="Headshot of Michael" src={headshot}/>
       </div>
     }
   }

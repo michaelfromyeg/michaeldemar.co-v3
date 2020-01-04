@@ -14,6 +14,11 @@ class Education extends React.Component {
               <Typography variant='body1'>{edu.degree}</Typography>
               <Typography variant='body1'>{edu.grade}</Typography>
               <Typography variant='body1'>{edu.end_date}</Typography>
+              <div className='technology-list'>{ edu.courses.map(function(course){
+                return <div className='technology'>
+                  <Typography variant='subtitle2'>{course}</Typography>
+                </div>
+              })}</div>
             </div>
         })}
       </div>

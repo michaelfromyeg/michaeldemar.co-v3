@@ -14,13 +14,13 @@ class Contact extends React.Component {
     render () {
       const contact = resume.contact
       return <div className='contact'>
-        <a target="_blank" href={contact.github_url} className='socials gh'><GitHubIcon className='icons' /></a>
-        <a target="_blank" href={contact.linkedin_url} className='socials ln'><LinkedInIcon className='icons' /></a>
-        <a target="_blank" href={contact.instagram_url} className='socials ig'><InstagramIcon className='icons' /></a>
-        <a target="_blank" href={contact.facebook_url} className='socials fb'><FacebookIcon className='icons' /></a>
-        <a target="_blank" href="#" className='socials tw'><TwitterIcon className='icons' /></a> 
-        <a target="_blank" href={contact.youtube_urll} className='socials yt'><YouTubeIcon className='icons' /></a>
-        <a target="_blank" href={contact.mail_url} className='socials em'><EmailIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.github_url} className='socials gh'><GitHubIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.linkedin_url} className='socials ln'><LinkedInIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.instagram_url} className='socials ig'><InstagramIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.facebook_url} className='socials fb'><FacebookIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.twitter_url} className='socials tw'><TwitterIcon className='icons' /></a> 
+        <a target="_blank" rel="noopener noreferrer" href={contact.youtube_urll} className='socials yt'><YouTubeIcon className='icons' /></a>
+        <a target="_blank" rel="noopener noreferrer" href={contact.mail_url} className='socials em'><EmailIcon className='icons' /></a>
       </div>
     }
   }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Typography } from '@material-ui/core'
 import Typist from 'react-typist'
 import Arrow from './arrow'
+import logosvg from '../assets/mjd-logo-white.svg'
 
 class Header extends React.Component {
 
@@ -10,7 +11,7 @@ class Header extends React.Component {
     }
 
     onComplete = () => {
-      if (this.state.index + 1 == 4) {
+      if (this.state.index + 1 === 4) {
         this.setState({ index: 0 })
       }
       else {
@@ -20,26 +21,27 @@ class Header extends React.Component {
 
     render () {
 
-      const strings = ['Michael DeMarco','a dev-in-development','a first-year at UBC','excited to meet you!'];
+      const strings = ['Michael James DeMarco','an aspiring software developer','a first-year UBC student','excited to meet you!'];
 
       return <div className='header'>
-        
         <div className='content-desktop'>
-          <Typography variant='h1' className='title-text'>Hi, I'm 
+          <img src={logosvg} alt="MJD logo" className='bg-logo-desktop' />
+        </div>
+        <div className='content-mobile'>
+          <img src={logosvg} alt="MJD logo" className='bg-logo-mobile' />
+        </div>
+          <Typography variant='h2' className='title-text'>Hi, I'm 
           <Typist
             className="Typist"
             onTypingDone={this.onComplete}
+            stdTypingDelay="0"
             key={this.state.index}>
-              <span>> { strings[this.state.index] }</span>
-              <Typist.Backspace count={ strings[this.state.index].length } delay={1000}/>
+              <span>>{ strings[this.state.index]}</span>
+              <Typist.Backspace count={ strings[this.state.index].length } delay={2500}/>
           </Typist>
         </Typography>
-        </div>
-        
-        <div className='content-mobile'>
-          <Typography className='mobile-title' variant='h1'>Hi, I'm <br /> >Michael DeMarco<span className='blink'>|</span></Typography>
-        </div>
-          <Arrow></Arrow></div>
+          <Arrow></Arrow>
+      </div>
     }
   }
 

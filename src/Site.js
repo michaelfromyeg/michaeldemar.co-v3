@@ -6,13 +6,14 @@ import Main from './components/main'
 //import Navbar from './components/navbar'
 import Footer from './components/footer'
 import './styles.css'
-import { ThemeProvider } from '@material-ui/core'
+import { ThemeProvider, responsiveFontSizes } from '@material-ui/core'
 import theme from './components/theme'
 
 
 class Site extends React.Component {
   render() {
-    const thm = theme
+    let orig_thm = theme
+    const thm = responsiveFontSizes(orig_thm);
     return <div className='router'>
       <div className='content'>
         <ThemeProvider theme={thm}>

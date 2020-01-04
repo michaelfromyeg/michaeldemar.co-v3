@@ -11,22 +11,28 @@ var rawinfo = {
                 title: "Backend Developer",
                 company: "Code The Change Foundation",
                 company_url: "http://codethechange.ca/",
+                github_url: "",
                 location: "Vancouver, BC",
                 start_date: "Aug 2019",
                 end_date: "Present",
-                description: ["With team of six, building web-application to allow local not-for-profit to track and coordinate volunteers."],
-                technologies: ["Node.js","React.js"]
+                description: ["With team of six, building web-application to allow local not-for-profit to track and coordinate volunteers.",
+                              "Developed front-end components, conducted code review, and learned the Agile workflow.",
+                              "Currently building API and app routing for site."],
+                technologies: ["Node.js","React.js","Agile","Git"]
             },
             {
-                title: "Registrar",
+                title: "Registrar and CTO",
                 company: "The Seminar on United Nations and International Affairs (SUNIA)",
                 company_url: "https://www.sunia.ca/",
+                github_url: "",
                 location: "Edmonton, AB",
                 start_date: "Jan 2017",
                 end_date: "Present",
-                description: ["Utilized Google Apps Script to create system for managing 150+ registrants.",
-                              "Worked with Slack API and Google Apps Script API to automate registrant contact process."],
-                technologies: ["Google Apps Script","Python"]
+                description: ["Utilized Google Apps Script (JavaScript) to maintain and further develop system for storing, updating, and contacting 150+ registrants. Interfaced with marketing team to create modern, welcoming emails using HTML, CSS, and vanilla JavaScript.",
+                              "Worked with Slack API to develop in-house tools and bots that increased workplace efficiency.",
+                              "Created generative recursion algorithm to place 75 students per week into groups to minimize student overlap, and prevent counsellors from being in groups with known students, saving future registrars >20 hours of work annually.",
+                              "Acted as webmaster for SquareSpace site."],
+                technologies: ["JavaScript","Python"]
             },
             {
                 title: "Program Coordinator",
@@ -35,8 +41,9 @@ var rawinfo = {
                 location: "Edmonton, AB",
                 start_date: "July 2017",
                 end_date: "July 2019",
-                description: ["Ran week-long camps teaching children aged 8 to 11 programming basics in Unity."],
-                technologies: ["Unity"]
+                description: ["Ran week-long camps teaching children aged 8 to 11 programming basics in Unity.",
+                              "Created programming for and subsequently ran day camps for children whose families were new-to-Canada, with a focus on English literacy (but also fun!)"],
+                technologies: ["Unity", "Communication","Teaching"]
             }
         ],
     },
@@ -45,22 +52,23 @@ var rawinfo = {
             {
                 name: "Massive Volunteering Site",
                 title: "Full Stack Web Developer",
-                github_url: "",
+                github_url: "https://github.com/michaelfromyeg/Massive-Volunteering",
                 location: "Edmonton, AB",
                 start_date: "Jan 2018",
                 end_date: "Aug 2019",
                 description: ["Project built for a high-school club, Massive Volunteering, which showcases volunteer experiences.",
-                              "Created front-end and back-end for website which allows students and organisations to access and post, respectively, volunteer experiences."],
+                              "Created frontend and backend for website which allows students and organisations to access and post, respectively, volunteer experiences."],
                 technologies: ["Python", "Flask", "mySQL"],
             },
             {
                 name: "Student Gradebook (HackED 2019)",
                 title: "Backend Developer",
-                github_url: "",
+                github_url: "https://github.com/michaelfromyeg/Student-Gradebook",
                 location: "Edmonton, AB",
                 start_date: "Jan 2018",
-                end_date: "",
-                description: ["As a part of a team of three, built the back-end of CRUD-capable spreadsheet-style app to allow students to track grades."],
+                end_date: "Jan 2018",
+                description: ["As a part of a team of three, built the back-end of CRUD-capable spreadsheet-style app to allow students to track grades.",
+                              "Project built at University of Alberta's Hack-a-thon."],
                 technologies: ["Java", "Swing", "JDBC"],
             }
         ]
@@ -70,10 +78,12 @@ var rawinfo = {
             {
                 title: "Student Programming Coordinator",
                 organization: "The Canadian Student Leadership Conference (CSLC) 2018",
+                url: "",
                 location: "Edmonton, AB",
                 start_date: "Dec 2016",
                 end_date: "Oct 2018",
                 description: ["For week-long conference of 1000 student-leaders across Canada, managed horizontal communication across five high schools and booked workshops, keynotes, and activities."],
+                skills: ["Communication","Leadership"]
             }
         ]
     },
@@ -83,10 +93,10 @@ var rawinfo = {
                 institution: "The University of British Colubmia (UBC)",
                 location: "Vancouver, BC",
                 degree: "B.Sc. Candidate for Computer Science and Mathematics",
-                grade: "",
+                grade: "89.2% (Dec 2019)",
                 start_date: "Sep 2019",
-                end_date: "May 2023 (anticipated)",
-                courses: ["CPSC 110 (Introduction to Programming)"]
+                end_date: "Spring 2023",
+                courses: ["CPSC 110","MATH 100","PHYS 117","DSCI 100 (current)","MATH 121 (current)","CPSC 210 (current)","CPSC 121 (current)"]
             },
             {
                 institution: "McNally Composite High School",
@@ -95,12 +105,12 @@ var rawinfo = {
                 grade: "41/45 (IB), 98.3% (Ab. Ed.)",
                 start_date: "Sep 2016",
                 end_date: "June 2019",
-                courses: ["Chemistry HL, English HL, History HL, Mathematics SL, French B SL, Physics SL, Computer Science SL"]
+                courses: ["Chemistry HL", "English HL", "History HL", "Mathematics SL", "French B SL", "Physics SL", "Computer Science SL (Additional)"]
             }
         ]
     },
     skills: {
-        languages: ["Java", "Python", "Javascript"],
+        languages: ["Java", "Python", "JavaScript"],
         frameworks: ["Flask", "React.js", "Node.js", "Swing"],
         tools: ["Git", "Agile", "Adobe Creative Cloud"],
     },
@@ -150,6 +160,7 @@ var rawinfo = {
         facebook_url: "https://www.facebook.com/michaelfromyeg",
         youtube_urll: "https://www.youtube.com/channel/UCohoNm6NqDAetXX6MiaV_RQ?view_as=subscriber",
         mail_url: "mailto:michaelfromyeg@gmail.com",
+        twitter_url: "https://twitter.com/michaelfromyeg",
         phone: "(780) 680-9634",
     },
     address: {

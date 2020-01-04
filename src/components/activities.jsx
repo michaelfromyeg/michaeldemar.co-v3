@@ -15,6 +15,11 @@ class Activities extends React.Component {
                 return <ListItem><Typography variant='body1'>• {bullet}</Typography></ListItem>
               })}
               </List>
+              <div className='technology-list'>{ act.skills.map(function(skill){
+                return <div className='technology'>
+                  <Typography variant='subtitle2'>{skill}</Typography>
+                </div>
+              })}</div>
             </div>
         })}
       </div>
