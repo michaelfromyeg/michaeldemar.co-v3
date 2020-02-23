@@ -8,10 +8,18 @@ import Footer from './components/footer'
 import './styles.css'
 import { ThemeProvider, responsiveFontSizes } from '@material-ui/core'
 import theme from './components/theme'
+import ReactGA from 'react-ga'
+
+const trackingID = 'UA-123146160-1'
+ReactGA.initialize(trackingID)
 
 
 class Site extends React.Component {
   render() {
+    ReactGA.event({
+      category:'User',
+      action:'Visit homepage'
+    })
     let orig_thm = theme
     const thm = responsiveFontSizes(orig_thm);
     return <div className='router'>

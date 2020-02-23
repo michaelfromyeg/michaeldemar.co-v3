@@ -9,7 +9,7 @@ class Awards extends React.Component {
         <Typography variant='h2'>Awards</Typography>
         { awards.map(function(awd){
           return <div className="entry">
-            <Typography variant='body1'><strong>{awd.name}</strong> @ {awd.organization}</Typography>
+            <Typography variant='body1'><strong>{awd.name}</strong> @ <a target="_blank" rel="noopener noreferrer" className='company-url' href={awd.url}>{awd.organization}</a></Typography>
             <Typography variant='body1'>{awd.date}</Typography>
             <List>
                 <ListItem><Typography variant='body1'>• {awd.details}</Typography></ListItem>

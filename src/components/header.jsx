@@ -21,7 +21,7 @@ class Header extends React.Component {
 
     render () {
 
-      const strings = ['Michael James DeMarco','an aspiring software developer','a first-year UBC student','excited to meet you!'];
+      const strings = ['Michael J. DeMarco','an aspiring software developer','a first-year UBC student','excited to meet you!'];
 
       return <div className='header'>
         <div className='content-desktop'>
