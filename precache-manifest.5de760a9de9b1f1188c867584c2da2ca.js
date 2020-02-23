@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bdb677d1ee70a58844dba81612b1d50",
+    "revision": "d9f5d2928770f8b1f4cf9043ff107677",
     "url": "/index.html"
   },
   {
-    "revision": "44f830068e1628cccd97",
+    "revision": "cfa9baafa73cf7b8759e",
     "url": "/static/css/main.38b3ba58.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.8cc201f5.chunk.js.LICENSE"
   },
   {
-    "revision": "44f830068e1628cccd97",
-    "url": "/static/js/main.68fef350.chunk.js"
+    "revision": "cfa9baafa73cf7b8759e",
+    "url": "/static/js/main.ca997a4d.chunk.js"
   },
   {
     "revision": "fd103d41066edfe2edd7",
     "url": "/static/js/runtime-main.06363229.js"
+  },
+  {
+    "revision": "30451a08e627e3cc9070f2cfb44c77ea",
+    "url": "/static/media/Michael_DeMarco.30451a08.pdf"
   },
   {
     "revision": "1b8df32dd6f47e609bac827203636360",
@@ -30,9 +34,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f647f398b6b76b3c35a0798e6aaf8e2f",
     "url": "/static/media/mjd-logo-white.f647f398.svg"
-  },
-  {
-    "revision": "30451a08e627e3cc9070f2cfb44c77ea",
-    "url": "/static/media/resume.30451a08.pdf"
   }
 ]);

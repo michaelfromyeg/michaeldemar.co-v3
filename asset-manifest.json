@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.38b3ba58.chunk.css",
-    "main.js": "/static/js/main.68fef350.chunk.js",
-    "main.js.map": "/static/js/main.68fef350.chunk.js.map",
+    "main.js": "/static/js/main.ca997a4d.chunk.js",
+    "main.js.map": "/static/js/main.ca997a4d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06363229.js",
     "runtime-main.js.map": "/static/js/runtime-main.06363229.js.map",
     "static/js/2.8cc201f5.chunk.js": "/static/js/2.8cc201f5.chunk.js",
     "static/js/2.8cc201f5.chunk.js.map": "/static/js/2.8cc201f5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfafffaeb1d0901357380546a5697324.js": "/precache-manifest.cfafffaeb1d0901357380546a5697324.js",
+    "precache-manifest.5de760a9de9b1f1188c867584c2da2ca.js": "/precache-manifest.5de760a9de9b1f1188c867584c2da2ca.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.38b3ba58.chunk.css.map": "/static/css/main.38b3ba58.chunk.css.map",
     "static/js/2.8cc201f5.chunk.js.LICENSE": "/static/js/2.8cc201f5.chunk.js.LICENSE",
+    "static/media/Michael_DeMarco.pdf": "/static/media/Michael_DeMarco.30451a08.pdf",
     "static/media/headshot.png": "/static/media/headshot.1b8df32d.png",
-    "static/media/mjd-logo-white.svg": "/static/media/mjd-logo-white.f647f398.svg",
-    "static/media/resume.pdf": "/static/media/resume.30451a08.pdf"
+    "static/media/mjd-logo-white.svg": "/static/media/mjd-logo-white.f647f398.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.06363229.js",
     "static/js/2.8cc201f5.chunk.js",
     "static/css/main.38b3ba58.chunk.css",
-    "static/js/main.68fef350.chunk.js"
+    "static/js/main.ca997a4d.chunk.js"
   ]
 }
