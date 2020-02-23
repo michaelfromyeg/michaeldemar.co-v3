@@ -1,8 +1,7 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 import headshot from '../assets/headshot.png';
-import actual_resume from '../assets/resume.pdf'
-import Contact from './contact';
+import actual_resume from '../assets/Michael_DeMarco.pdf'
 
 class About extends React.Component {
     render () {
