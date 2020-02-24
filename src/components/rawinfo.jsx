@@ -55,6 +55,17 @@ var rawinfo = {
     projects: {
         list: [
             {
+                name: "Best Buy AR Pro",
+                title: "Android App Developer",
+                github_url: "https://github.com/michaelfromyeg/BestBuy-ARPro",
+                location: "Vancouver, BC",
+                start_date: "Feb 2020",
+                end_date: "Feb 2020",
+                description: ["As part of a team of two, created minified Best Buy Android app clone and extended functionality to include AR feature to allow users to ‘see’ Best Buy products in their own living room, to exact dimensions.",
+                              "Project earned second place prize at BizHacks 2020 against 50+ teams."],
+                technologies: ["Android", "Java", "ARCore"],
+            },
+            {
                 name: "Massive Volunteering Site",
                 title: "Full Stack Web Developer",
                 github_url: "https://github.com/michaelfromyeg/Massive-Volunteering",
@@ -62,7 +73,7 @@ var rawinfo = {
                 start_date: "Jan 2018",
                 end_date: "Aug 2019",
                 description: ["Web application developed for client, a club at my former high school called Massive Volunteering, which showcases volunteer experiences from around the Edmonton area and shares them with their followers.",
-                              "Created frontend and backend for website which allows students and organisations to access and post volunteer experiences."],
+                              "Created frontend and backend for website which allows students and organizations to access and post volunteer experiences."],
                 technologies: ["Python", "Flask", "mySQL"],
             },
             {
