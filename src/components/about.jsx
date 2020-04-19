@@ -2,11 +2,11 @@ import React from 'react';
 import { Typography } from '@material-ui/core';
 import headshot from '../assets/headshot.png';
 import actual_resume from '../assets/Michael_DeMarco.pdf'
-import actual_letter from '../assets/MLAMarlinSchmidt.pdf';
+//import actual_letter from '../assets/MLAMarlinSchmidt.pdf';
 
 class About extends React.Component {
     render () {
-      const letter = <a className="letter" href={actual_letter} target="_blank" rel="noopener noreferrer"> letter</a>;
+      //const letter = <a className="letter" href={actual_letter} target="_blank" rel="noopener noreferrer"> letter</a>;
       const resume = <a className="resume" href={actual_resume} target="_blank" rel="noopener noreferrer"> resume</a>;
       return <div className="section">
           <Typography variant='h2'>About</Typography>
